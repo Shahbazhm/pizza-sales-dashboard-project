@@ -153,23 +153,32 @@ Interactive drill-through page allowing users to:
 # 📁 Repository Structure
 
 ```text
-pizza-sales-dashboard/
+pizza-sales-dashboard-project/
 │
 ├── data/
 │   └── pizza_sales.csv
-│
-├── sql/
-│   ├── data_loading.sql
-│   └── analysis_queries.sql
-│
-├── powerbi/
-│   └── pizza_sales_dashboard.pbix
+│ 
+├── docs/
+│   ├──  measures_dax.txt
+│   └──  pizza_sales_data_dictionary.md
 │
 ├── images/
-│   ├── home_dashboard.png
-│   ├── best_worst_dashboard.png
-│   └── pizza_detail_analysis.png
+│   ├── pizza_sales_dashboard_3.png
+│   ├── pizza_sales_dashboard_4.png
+│   ├── pizza_sales_dashboard_5.png
+│   └── project_architecture_diagram.png
+├── powerbi/
+│   └── pizza_sales_dashboard_1.pbix
 │
+├── sql/
+│    ├── staging/ 
+│       ├── ddl_staging.sql
+│       └── pro_load_staging.sql
+│    ├── final/ 
+│       ├── ddl_final.sql
+│       └── pro_load_final.sql
+│   ├── PIZZA SALES SQL QUERIES_1.docx
+│   └── init_database.sql
 └── README.md
 ```
 
