@@ -136,17 +136,17 @@ Interactive drill-through page allowing users to:
 # 📸 Dashboard Preview
 
 ## 🏠 Home Dashboard
-![Home Dashboard](images/home_dashboard.png)
+![Home Dashboard](images/pizza_sales_dashboard_3.png)
 
 ---
 
 ## 📊 Best/Worst Sellers Dashboard
-![Best Worst Dashboard](images/best_worst_dashboard.png)
+![Best Worst Dashboard](images/pizza_sales_dashboard_4.png)
 
 ---
 
 ## 🔍 Pizza Detail Analysis
-![Drill Through Dashboard](images/pizza_detail_analysis.png)
+![Drill Through Dashboard](images/pizza_sales_dashboard_5.png)
 
 ---
 
@@ -179,6 +179,7 @@ pizza-sales-dashboard-project/
 │       └── pro_load_final.sql
 │   ├── PIZZA SALES SQL QUERIES_1.docx
 │   └── init_database.sql
+│ 
 └── README.md
 ```
 
